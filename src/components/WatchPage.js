@@ -8,7 +8,7 @@ const WatchPage = () => {
     const dispatch = useDispatch();
     let [searchParams] = useSearchParams();
     useEffect(() => {
-        dispatch(closeMenu());
+        // dispatch(closeMenu());
     })
 
 
