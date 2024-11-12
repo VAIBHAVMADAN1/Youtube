@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux'
 
 import { closeMenu } from '../utils/appSlice';
 import { useSearchParams } from 'react-router-dom';
+import CommentsContainer from './CommentsContainer';
 
 const WatchPage = () => {
     const dispatch = useDispatch();
@@ -25,6 +26,7 @@ const WatchPage = () => {
             allowfullscreen
             >
             </iframe>
+            <CommentsContainer/>
         </div>
     )
 }
