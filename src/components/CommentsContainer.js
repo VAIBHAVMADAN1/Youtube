@@ -1,20 +1,22 @@
 import React from 'react'
 
+import { generateRandomName } from '../utils/helper'
+
 const commentsData = [
   {
-    name: "Vaibhav",
+    name: generateRandomName(),
     text: "lorem ipsum",
     replies: [
       {
-        name: "Vaibhav 1",
+        name: `${generateRandomName()} 1`,
         text: "lorem ipsum",
         replies: [
           {
-            name: "Vaibhav 2",
+            name: `${generateRandomName()} 2`,
             text: "lorem ipsum",
             replies: [
               {
-                name: "Vaibhav 3",
+                name: `${generateRandomName()} 3`,
                 text: "lorem ipsum",
                 replies: [
 
@@ -27,14 +29,14 @@ const commentsData = [
     ]
   },
   {
-    name: "Vaibhav",
+    name: generateRandomName(),
     text: "lorem ipsum",
     replies: [
 
     ]
   },
   {
-    name: "Vaibhav",
+    name: generateRandomName(),
     text: "lorem ipsum",
     replies: [
 
